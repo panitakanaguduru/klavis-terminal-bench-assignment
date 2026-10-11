@@ -1,0 +1,11 @@
+services:
+  client:
+    container_name: ${T_BENCH_TASK_DOCKER_CLIENT_CONTAINER_NAME:-event-pipeline-debug-client}
+    build:
+      context: ./environment
+      dockerfile: Dockerfile
+    image: event-pipeline-recovery-test
+    command: sleep infinity
+    volumes:
+      - ${T_BENCH_TASK_LOGS_PATH:-./logs}:/logs
+      - ${T_BENCH_TASK_AGENT_LOGS_PATH:-./agent-logs}:/agent-logs

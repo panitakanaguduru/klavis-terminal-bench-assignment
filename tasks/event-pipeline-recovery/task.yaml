@@ -1,0 +1,32 @@
+instruction: |-
+  Repair the broken event-processing pipeline in /app/processor.py.
+
+  The processor must read /app/data/events.jsonl,
+  validate required event fields and timestamps,
+  remove duplicate events by event_id,
+  retain the record with the latest ingestion_time for each duplicate ID,
+  process events in chronological event_time order,
+  and produce deterministic output independent of input ordering.
+
+  Write the cleaned events to /app/output/clean_events.json
+  and metrics to /app/output/metrics.json.
+
+  Metrics must include event_counts and unique_users
+  grouped by event_type.
+
+  The solution must pass all tests in /tests/test_outputs.py.
+
+author_name: "Panita Vaishnavi Kanaguduru"
+author_email: "panitakanaguduru.18@gmail.com"
+difficulty: "medium"
+category: "software-engineering"
+tags:
+  - python
+  - data-engineering
+  - event-processing
+  - deduplication
+  - recovery
+parser_name: "pytest"
+max_agent_timeout_sec: 1800.0
+max_test_timeout_sec: 300.0
+run_tests_in_same_shell: false

@@ -1,0 +1,8 @@
+{"event_id": "e001", "user_id": "u101", "event_type": "login", "event_time": "2026-10-01T10:00:00Z", "ingestion_time": "2026-10-01T10:01:00Z"}
+{"event_id": "e002", "user_id": "u102", "event_type": "purchase", "event_time": "2026-10-01T10:05:00Z", "ingestion_time": "2026-10-01T10:06:00Z"}
+{"event_id": "e001", "user_id": "u101", "event_type": "login", "event_time": "2026-10-01T10:00:00Z", "ingestion_time": "2026-10-01T10:03:00Z"}
+{"event_id": "e004", "user_id": "u103", "event_type": "view", "event_time": "2026-10-01T10:10:00Z", "ingestion_time": "2026-10-01T10:11:00Z"}
+{"event_id": "e002", "user_id": "u102", "event_type": "purchase", "event_time": "2026-10-01T10:05:00Z", "ingestion_time": "2026-10-01T10:08:00Z"}
+{"event_id": "e006", "user_id": "u104", "event_type": "login", "event_time": "2026-10-01T10:15:00Z", "ingestion_time": "2026-10-01T10:16:00Z"}
+{"event_id": "e007", "user_id": "", "event_type": "view", "event_time": "2026-10-01T10:20:00Z", "ingestion_time": "2026-10-01T10:21:00Z"}
+{"event_id": "e008", "user_id": "u105", "event_type": "purchase", "event_time": "invalid", "ingestion_time": "2026-10-01T10:22:00Z"}

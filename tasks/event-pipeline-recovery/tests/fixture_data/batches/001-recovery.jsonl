@@ -1,0 +1,6 @@
+{"schema_version":2,"id":"e009","actor":{"id":"u201"},"type":"login","occurred_at":"2026-10-01T06:30:00-04:00","received_at":"2026-10-01T10:31:00Z","revision":0}
+{"schema_version":2,"id":"e010","actor":{"id":"u202"},"type":"purchase","occurred_at":"2026-10-01T10:40:00Z","received_at":"2026-10-01T10:41:00Z","revision":0}
+{"event_id":"e010","operation":"delete","revision":1,"ingestion_time":"2026-10-01T10:42:00Z"}
+{"schema_version":2,"id":"e011","actor":{"id":"u203"},"type":"view","occurred_at":"2026-10-01T10:50:00Z","received_at":"2026-10-01T10:51:00Z","revision":2}
+{"schema_version":3,"event_id":"e012","user_id":"u204","event_type":"login","event_time":"2026-10-01T11:00:00Z","ingestion_time":"2026-10-01T11:01:00Z"}
+{"event_id":"e013","user_id":"u205","event_type":"view","event_time":"not-a-date","ingestion_time":"2026-10-01T11:02:00Z"}
